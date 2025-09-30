@@ -6,24 +6,27 @@ This MSc project investigates the **thermal structure trends in the Mesosphere-L
 
 ## Project Structure
 
+```
+
 MLT/
 │
 ├── Data/
-│ ├── raw/ # Original SABER datasets
-│ └── processed/ # Cleaned and aggregated data
+│   ├── raw/       # Original SABER datasets
+│   └── processed/ # Cleaned and aggregated data
 │
 ├── Code/
-│ ├── notebooks/ # Jupyter notebooks for exploration and analysis
-│ └── scripts/ # Python scripts and utilities
+│   ├── notebooks/ # Jupyter notebooks for exploration and analysis
+│   └── scripts/   # Python scripts and utilities
 │
 ├── Plots/
-│ ├── exploratory/ # Initial visualizations
-│ └── final/ # Publication-ready figures
+│   ├── exploratory/ # Initial visualizations
+│   └── final/       # Publication-ready figures
 │
-├── docs/ # Documentation, notes, references
+├── docs/          # Documentation, notes, references
 │
-└── README.md # Project description and instructions
+└── README.md      # Project description and instructions
 
+```
 ## Problem Statement
 
 Despite SABER’s long-term MLT temperature data, there is a **knowledge gap** in understanding localized trends in the Southern Hemisphere, particularly over Sutherland. Most MLT studies focus on Northern Hemisphere mid-latitudes or equatorial regions, limiting our understanding of hemispheric asymmetries, regional climate sensitivity, and wave-mean flow interactions in the South African context.
