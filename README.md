@@ -91,3 +91,11 @@ The study focuses on **Sutherland, South Africa (32.38°S, 20.81°E)**, located 
 ### Computational Tools
 - **Python libraries**: `pandas`, `xarray`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`, `TensorFlow`.  
 - Facilitates preprocessing, trend analysis, visualization, and DL modeling.
+
+
+
+
+
+## Model
+
+![Temperature Time-Height Heatmap](plots/model/Temperature%20Time-Height%20Heatmap%20(2).png)
