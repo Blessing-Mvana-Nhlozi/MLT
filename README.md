@@ -4,6 +4,26 @@
 
 This MSc project investigates the **thermal structure trends in the Mesosphere-Lower Thermosphere (MLT) region** using **SABER (Sounding of the Atmosphere using Broadband Emission Radiometry)** observations over **Sutherland, South Africa**. The study aims to understand long-term temperature trends, vertical structure variability, and the influence of climate and solar drivers in a Southern Hemisphere mid-latitude location that is underrepresented in current MLT research.
 
+## Project Structure
+
+MLT/
+│
+├── Data/
+│ ├── raw/ # Original SABER datasets
+│ └── processed/ # Cleaned and aggregated data
+│
+├── Code/
+│ ├── notebooks/ # Jupyter notebooks for exploration and analysis
+│ └── scripts/ # Python scripts and utilities
+│
+├── Plots/
+│ ├── exploratory/ # Initial visualizations
+│ └── final/ # Publication-ready figures
+│
+├── docs/ # Documentation, notes, references
+│
+└── README.md # Project description and instructions
+
 ## Problem Statement
 
 Despite SABER’s long-term MLT temperature data, there is a **knowledge gap** in understanding localized trends in the Southern Hemisphere, particularly over Sutherland. Most MLT studies focus on Northern Hemisphere mid-latitudes or equatorial regions, limiting our understanding of hemispheric asymmetries, regional climate sensitivity, and wave-mean flow interactions in the South African context.
@@ -68,6 +88,3 @@ The study focuses on **Sutherland, South Africa (32.38°S, 20.81°E)**, located 
 ### Computational Tools
 - **Python libraries**: `pandas`, `xarray`, `numpy`, `scipy`, `statsmodels`, `matplotlib`, `seaborn`, `TensorFlow`.  
 - Facilitates preprocessing, trend analysis, visualization, and DL modeling.
-
-## Project Structure
-
